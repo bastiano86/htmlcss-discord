@@ -1,15 +1,84 @@
+header{
 
+  width: 100%;
+}
+
+
+nav{
+  background-color: royalblue;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 20%;
+  display: inline-block;
+}
 
 nav li {
   display: inline-block;
-  width: 50px;
-  height: 20px;
+  padding-right: 20px;
 }
-button{
+
+nav li a {
+  color: lavender;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu {
+  padding-top: 8px;
+  width: 500px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+button {
+  margin-left: 10px;
   display: inline-block;
   width: 100px;
   height: 30px;
 }
-nav {
-    width: 100%
+
+.logo-container {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin-right: 100px;
+}
+
+.button-white:hover {
+  background-color: lavender;
+  border: none;
+  color: ;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button-white {
+  background-color: white;
+  border: none;
+  color: ;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 20px;
 }
