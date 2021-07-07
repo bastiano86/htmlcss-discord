@@ -1,9 +1,37 @@
+* {
+  ;
+  font-style: none;
+}
+
 h1 {
+  color: black;
+  font-size: 3em;
+}
+
+.hero-header h1 {
+  color: white;
   font-size: 4em;
 }
 
+.hero-header p {
+  color: white;
+  font-size: 1em;
+  margin: 10px auto;
+}
+
 p {
-   width: 50%;
-   margin: 10px auto;
-   font-size: 1em;
+  color: black;
+  font-size: 1em;
+}
+.copy h1 {
+  margin-bottom: 12px;
+  line-height: 45px;
+}
+
+.menu {
+  padding-top: 8px;
+  width: 500px;
+  color: white;
+  font-family: Arial;
+  font-size: 11px;
 }
